@@ -1,0 +1,8 @@
+Grades I got: 63 out of 70, submitted late so 10% penalty lmao
+
+description: This program mimics the bank and can open account, transfer fund from one account to another, 
+             withdraw money from the account, deposit money to the account. 
+
+Uses vector, binary search tree and queue as main data structure.
+Has five classes that communicates to each other to execute the program.
+Follow design document for further description.
