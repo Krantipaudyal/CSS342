@@ -1,0 +1,87 @@
+ERROR: Account (9876) already exists. Transaction refused
+ERROR: Transaction refused. Account doesnt exist
+ERROR: Could not deduct negative amount
+ERROR: Insufficient fund to withdraw $-500 (with combined fund (if applicable))
+ERROR: Transfer canot be made. Insufficeint amount in the fund to make a transfer
+ERROR: Transfer cannot be made.Not enough fund on Account(1001) to transfer to Account(1001)
+ERROR: Transfer cannot be made, negative amount value
+ERROR: Transfer cannot be made.Not enough fund on Account(1001) to transfer to Account(1001)
+ERROR: Transfer cannot be made. Account (-100000) does not exist
+ERROR: Withdraw cannot be made. Account doesnt exist
+ERROR: Transfer cannot be made. Account (1009) does not exist
+ERROR: Transfer canot be made. Insufficeint amount in the fund to make a transfer
+ERROR: Transfer cannot be made.Not enough fund on Account(1001) to transfer to Account(1001)
+ERROR: Could not add Negative Value
+
+Transaction History for: Johnny Cash
+Money Market: $0
+W 10010 -500(Error/Failed)
+T 10010 100 10011(Error/Failed)
+T 10010 100 10011(Error/Failed)
+T 10012 899 10010
+W 10010 950
+Prime Money Market: $49
+D 10011 100
+Long-Term Bond: $0
+D 10012 899
+T 10012 899 10010
+Short-Term Bond: $0
+500 Index Fund: $7000
+T 10015 7000 10014
+Capital Value Fund: $1000
+D 10015 8000
+T 10015 7000 10014
+T 10015 2000 10014(Error/Failed)
+T 10015 2000 10014(Error/Failed)
+Growth Equity Fund: $0
+Growth Index Fund: $0
+D 10017 -100
+Value Fund: $0
+Stock Index Fund: $0
+
+
+Transaction History for: Willie Nelson
+Money Market: $0
+Prime Money Market: $0
+Long-Term Bond: $0
+W 98762 1001
+D 98762 200
+W 98762 1299
+Short-Term Bond: $1
+D 98763 1000
+D 98763 100
+500 Index Fund: $0
+Capital Value Fund: $0
+Growth Equity Fund: $0
+Growth Index Fund: $0
+Value Fund: $0
+Stock Index Fund: $0
+
+Final Balances:
+Johnny Cash Account Number: 1001
+Money Market: $0
+Prime Money Market: $49
+Long-Term Bond: $0
+Short-Term Bond: $0
+500 Index Fund: $7000
+Capital Value Fund: $1000
+Growth Equity Fund: $0
+Growth Index Fund: $0
+Value Fund: $0
+Stock Index Fund: $0
+
+Willie Nelson Account Number: 9876
+Money Market: $0
+Prime Money Market: $0
+Long-Term Bond: $0
+Short-Term Bond: $1
+500 Index Fund: $0
+Capital Value Fund: $0
+Growth Equity Fund: $0
+Growth Index Fund: $0
+Value Fund: $0
+Stock Index Fund: $0
+
+Press any key to continue . . .
+
+
